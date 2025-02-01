@@ -12,3 +12,19 @@ This is a simple command-line music player written in C for Windows. The program
 1. Compile the C code using a C compiler. For MinGW, use:  
    ```sh
    gcc music_player.c -lwinmm -o music_player
+2. Run the executable:
+   ```sh
+   music_player.exe
+
+🎶 Usage
+The program will display a menu with options for:
+
+- Playing songs
+- Stopping playback
+- Skipping songs
+- Managing the playlist
+Follow the on-screen instructions to interact with the music player.
+
+📌 Notes
+The program scans the current directory for .wav files and initializes the playlist during startup.
+Ensure that your music files are in the .wav format.
